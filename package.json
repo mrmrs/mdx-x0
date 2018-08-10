@@ -1,0 +1,31 @@
+{
+  "name": "x0-styled-system",
+  "version": "0.0.0",
+  "description": "Example of a static site with emotion and x0 and styled-system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "x0 pages -op 9000",
+    "build": "x0 build pages --static"
+  },
+  "keywords": [
+    "css-in-js"
+  ],
+  "author": "mrmrs",
+  "license": "ISC",
+  "dependencies": {
+    "@compositor/kit": "^1.0.47",
+    "@compositor/x0": "^6.0.2",
+    "emotion": "^9.2.6",
+    "emotion-theming": "^9.2.6",
+    "lodash.sortby": "^4.7.0",
+    "react": "^16.4.1",
+    "react-emotion": "^9.2.6",
+    "react-router-dom": "^4.3.1",
+    "styled-system": "^3.0.2"
+  },
+  "x0": {
+    "title": "Test",
+    "template": "./html.js"
+  }
+}
